@@ -8,6 +8,7 @@ const { NODE_ENV } = require('./config');
 const thingsRouter = require('./things/things-router');
 const reviewsRouter = require('./reviews/reviews-router');
 const authRouter = require('./auth/auth-router');
+const usersRouter = require('./users/users-router');
 
 const app = express();
 
